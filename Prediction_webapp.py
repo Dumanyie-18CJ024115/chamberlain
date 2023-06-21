@@ -12,6 +12,7 @@ import streamlit as st
 import hashlib
 import sqlite3
 import base64
+import sklearn
 conn = sqlite3.connect('users.db')
 c = conn.cursor()
 
